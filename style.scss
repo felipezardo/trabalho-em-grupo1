@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 40px;
+
+
+    .acesso {
+        background-color: #DF0712;
+        ;
+        border: none;
+        color: white;
+        padding: 8px 30px;
+        border-radius: 5px;
+        font-size: large;
+        margin: 0 30px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+    }
+
+    .login {
+        background-color: #181818;
+        border: none;
+        color: white;
+        padding: 6px 20px;
+        border-radius: 5px;
+        font-size: large;
+        border: solid 1px white;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+    }
+
+    img {
+        width: 170px;
+    }
+}
+
+
+main {
+    margin: 100px;
+
+    .titulo {
+        background-color: #181818;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        font-family: "Inter", sans-serif;
+
+        h2 {
+            font-weight: 400;
+        }
+
+        img {
+            width: 130px;
+        }
+    }
+
+    .episodios {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+
+        img {
+            width: 350px;
+
+        }
+
+      
+
+        div {
+            font-family: "Inter", sans-serif;
+
+            h3 {
+                font-size: 25px;
+                font-weight: 400;
+                margin: 20px 0px;
+
+            }
+
+            width:523px;
+
+            p {
+                width: 300px;
+            }
+        }
+    }
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Inter",sans-serif;
+    h4{
+        margin: 50px;
+        font-weight: 400;
+    }
+    
+    align-items: center;
+    font-size: 25px;
+    height: 80px;
+}

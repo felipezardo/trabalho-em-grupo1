@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 15px 40px;
+}
+header .acesso {
+  background-color: #DF0712;
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: large;
+  margin: 0 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+header .login {
+  background-color: #181818;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-size: large;
+  border: solid 1px white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+header img {
+  width: 170px;
+}
+
+main {
+  margin: 100px;
+}
+main .titulo {
+  background-color: #181818;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+}
+main .titulo h2 {
+  font-weight: 400;
+}
+main .titulo img {
+  width: 130px;
+}
+main .episodios {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+main .episodios img {
+  width: 350px;
+}
+main .episodios div {
+  font-family: "Inter", sans-serif;
+  width: 523px;
+}
+main .episodios div h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+main .episodios div p {
+  width: 300px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  font-size: 25px;
+  height: 80px;
+}
+footer h4 {
+  margin: 50px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
